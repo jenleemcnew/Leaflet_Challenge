@@ -30,4 +30,4 @@ for feature in data['features']:
         color=get_marker_color(depth),
         fill=True,
         fill_color=get_marker_color(depth),
-       
+       p
