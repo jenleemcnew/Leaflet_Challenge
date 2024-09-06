@@ -1,0 +1,41 @@
+#map {
+  height: 600px;
+  width: 100%;
+}
+
+#map {
+  height: 600px;
+  width: 100%;
+  border: 5px solid #000; /* Black border with 5px thickness */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for a better visual effect */
+}
+
+#map-title {
+  text-align: center;    /* Center the title */
+  font-family: Arial, sans-serif;    /* Set a font */
+  font-size: 24px;       /* Font size */
+  color: #006600;        /* Dark green color */
+  margin-bottom: 10px;   /* Space between the title and the map */
+  text-shadow: 1px 1px 2px #ccc; /* Optional: Add a slight shadow to the text */
+}
+
+
+.legend {
+  background: white;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  line-height: 18px;
+  color: #555;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
